@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-left: 25px;
+}
+.nav-title{
+    margin-left: 25px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    color: rgb(249, 249, 252);
+    background-color: rgb(61, 194, 228);
+    margin-right: 25px;
+    font-size: 15px;
+    border: black solid 3px;
+    margin-left: 25px;
+    border-bottom-style: outset;
+}
+.active{
+    color: white;
+    margin-left: 25px;
+}
+.at,.look{
+    margin-left: 25px;
+    color: grey;
+}
